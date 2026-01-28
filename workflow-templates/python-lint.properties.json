@@ -1,7 +1,7 @@
 {
     "name": "RationAI Python Lint",
     "description": "Standard Ruff and MyPy checks using uv.",
-    "iconName": "octicon python",
+    "iconName": "python",
     "categories": [
         "Python"
     ]
