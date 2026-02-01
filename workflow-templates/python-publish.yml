@@ -4,5 +4,5 @@ on:
     types: [published]
 
 jobs:
-  python-lint:
+  run:
     uses: RationAI/.github/.github/workflows/python-publish.yml@main
