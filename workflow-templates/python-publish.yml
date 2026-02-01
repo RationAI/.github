@@ -1,0 +1,8 @@
+name: Python Publish (RationAI Standard)
+on:
+  release:
+    types: [published]
+
+jobs:
+  python-lint:
+    uses: RationAI/.github/.github/workflows/python-publish.yml@main
