@@ -19,7 +19,7 @@ jobs:
         uses: astral-sh/setup-uv@v7
 
       - name: Install dependencies
-        run: uv sync --locked --extra docs
+        run: uv sync --frozen --extra docs
 
       - name: Cache MkDocs / Material
         run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
