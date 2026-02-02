@@ -1,0 +1,8 @@
+{
+    "name": "Pytest",
+    "description": "Pytest using uv.",
+    "iconName": "python",
+    "categories": [
+        "Python"
+    ]
+}

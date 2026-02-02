@@ -1,0 +1,12 @@
+name: Pytest (RationAI Standard)
+on:
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+permissions:
+  contents: read
+
+jobs:
+  run:
+    uses: RationAI/.github/.github/workflows/pytest.yml@main
