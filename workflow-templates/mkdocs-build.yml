@@ -1,10 +1,10 @@
 name: MkDocs Build (RationAI Standard)
 on:
   push:
-    branches:
-      - main
+    branches: [$default-branch]
   pull_request:
-    types: [opened, synchronize, reopened]
+    branches: [$default-branch]
+  workflow_dispatch:
 
 jobs:
   run:
