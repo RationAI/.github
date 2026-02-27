@@ -3,7 +3,7 @@
 * [RatioPath](https://github.com/RationAI/ratiopath)
 
 ## Pathology AI
-* Prostate Cancer
+* [LSP-DETR](https://github.com/RationAI/lsp-detr)
 * ...
 
 ## Visualization
