@@ -1,8 +1,0 @@
-{
-    "name": "Python Publish",
-    "description": "Python package publishing to PYPI using uv.",
-    "iconName": "python",
-    "categories": [
-        "Python"
-    ]
-}
