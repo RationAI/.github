@@ -17,7 +17,7 @@ jobs:
         uses: astral-sh/setup-uv@v7
 
       - name: Build package
-        run: uv publish
+        run: uv build
 
       - name: Publish package
         run: uv publish
