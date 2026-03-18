@@ -8,8 +8,8 @@
 
 ## Visualization
 * [xOpat viewer](https://github.com/RationAI/xopat) - Flexible digital pathology viewer with zero API fixation
-* [iipsrv](https://github.com/RationAI/iipsrv) - Simple slide server for xOpat, supports TIFF files only (runs on standard protocols such as DZI)
-* [WSI service](https://github.com/RationAI/WSI-Service) - Complex slide server for xOpat supporting many WSI formats (proprietary API)
+* [iipsrv](https://github.com/RationAI/iipsrv) - Simple slide server, supports TIFF files only (runs on standard protocols such as DZI, xOpat has auto support)
+* [WSI service](https://github.com/RationAI/WSI-Service) - Complex slide server supporting many WSI formats (proprietary API, xOpat implements module that adds support)
 
 ## QC
 * Staining
